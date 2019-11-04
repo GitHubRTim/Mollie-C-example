@@ -8,7 +8,7 @@ Creating a C# payment transaction with Mollie.com
  Copy these files to your Visual studio development environment and use the debugger to see what is happening by starting this one form.
  
  To Generate JSON you need to load the libraries from Newonsoft.Json in your Visual studio project. Find it in "Manage NuGet Packages" 
-  in Visual Studio 2015 (right click on your solution name)
+  (in Visual Studio 2015 right click on your solution name)
 
  Very importand is to TURN ON PAYMENT METHODS after you have created a Mollie account under Settings ==> Website Profiles:
  https://www.mollie.com/dashboard/settings/profiles   (Select payment methods) They do not need to be completed to test your interface.
