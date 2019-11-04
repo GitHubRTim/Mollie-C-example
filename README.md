@@ -5,7 +5,8 @@ Creating a C# payment transaction with Mollie.com
  
 
  This ASP.Net C# WEB example form shows how to send a transaction to Mollie with plain JSON
- Copy these files to your Visual studio development environment and use the debugger to see what is happening by starting this one form
+ Copy these files to your Visual studio development environment and use the debugger to see what is happening by starting this one form.
+ 
  To Generate JSON you need to load the libraries from Newonsoft.Json in your Visual studio project. Find it in "Manage NuGet Packages" 
   in Visual Studio 2015 (right click on your solution name)
 
