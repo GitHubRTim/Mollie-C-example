@@ -22,3 +22,6 @@ Creating a C# payment transaction with Mollie.com
  Return message in JSON: Status: 422, title: Unprocessed entity. Detail:"Non-Existent body parameter \"first parameter name\" for 
  this API call.
  This eror will happen if you did not specify a payment option in the mollie account settings.
+ 
+ Error message: The remote server returned an error: (422) Unprocessable Entity.
+ This happens if you use localhost in the webhookurl (PayRequest.webhookUrl = "https://localhost/)
