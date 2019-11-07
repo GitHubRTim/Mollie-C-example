@@ -16,11 +16,10 @@ Creating a C# payment transaction with Mollie.com
 
 
  Common error:
- The remote server returned an error: (401) Unauthorized.:   You do not have valid credentials test_Mut7BGvad8dQu6mrGvgtpxk2UuGVtE is 
- not correct.
+ The remote server returned an error: (401) Unauthorized.: Explanation: This means that you do not have valid credentials, e.g.  test_Mut7BGvad8dQu6mrGvgtpxk2UuGVtE is  not correct.
 
  Return message in JSON: Status: 422, title: Unprocessed entity. Detail:"Non-Existent body parameter \"first parameter name\" for 
- this API call.
+ this API call. Explanation:
  This eror will happen if you did not specify a payment option in the mollie account settings.
  
  Error message: The remote server returned an error: (422) Unprocessable Entity.
